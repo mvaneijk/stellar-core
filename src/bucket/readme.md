@@ -5,7 +5,7 @@ local SQL [database](../database) in order to query the set and apply
 transactions to it.
 
 However, for two operations the "large logical set" of entries is inconvenient
-and/or intractable in its SQL storge form:
+and/or intractable in its SQL storage form:
 
   - Efficiently calculating a cryptographic hash of the entire set, after each
     change to it.
